@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografar</title>
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho_div"> 
+        </div>
+
+    </header>
+    <main class="main">
+
+        <section class="texto1">
+            <div class="logo_div">
+                <img class="logoalura" src="Assets/alura.svg" alt="logo da alura">
+            </div>
+            <div class="borda">
+                <div class="icone">
+                    <img class="icone_bolinha" src="Assets/bolinhas.svg">
+                    <img class="icone_x" src="Assets/Group 2.svg">
+                </div>
+
+                <div>
+                    <textarea id="textarea1" class="textarea" cols="41" rows="4" placeholder="Digite seu texto aqui."></textarea>
+                </div>
+
+            </div>
+
+            <div class="atencao">
+                    <div class="atencao_img">
+                        <img src="Assets/Vector (1).svg" width="40px">
+                    </div>
+                    <div class="atencao_frase">
+                        Apenas letras minúsculas e sem acento.
+                    </div>
+            </div>
+
+            <div class="atencao_div">
+                <div class="botaoir" >
+                    <button class="encriptar" onclick="btnEncriptar()"> CRIPTOGRAFAR </button>
+                    <button class="desencriptar" onclick="btnDesencriptar()">DESCRIPTOGRAFAR</button> 
+                    
+                </div>
+            </div>
+           
+        </section>
+        <section class="seta"> 
+            <img src="Assets/Mask group.svg">
+        </section>
+        <section class="texto2">
+            <div class="div_icones">
+                <img class="cabecalho_icones" src="Assets/Vector.svg" alt="icones variados">
+            </div>
+            <div class="borda">
+                <div class="icone2">
+                    <img class="icone_bolinha" src="Assets/bolinhas.svg">
+                    <img class="icone_x" src="Assets/Group 2.svg">
+
+                </div>
+            
+                <textarea readonly class="textarea2" cols="41" rows="4" placeholder="Nenhuma mensagem encontrada. 
+
+Digite o texto que você deseja criptografar ou descriptografar na janela ao lado."></textarea>
+            </div>
+            <div class="div_pastas">
+                <div>
+                    <img src="Assets/pastas.svg" width="270px">
+                </div>
+                <div class="botaocopiar">
+                    <button class="botao_copiar" onclick="copiarTexto()">COPIAR</button>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+        <div class="rodape">
+            Alura Challenges Oracle ONE
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
