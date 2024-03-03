@@ -34,14 +34,14 @@ body {
     display: flex;
     gap: 1rem;
     margin-top: 2%;
-    margin-left: 15%;
+    margin-left: 8%;
     margin-right: 5%;
     
 }
 
 
 .borda {
-    width: 560px;
+    width: 500px;
     align-content: center;
     justify-content: center;
     border: 4px solid var(--cor-violeta);
@@ -90,7 +90,7 @@ body {
     font-family: var(--font-um);
     font-size: 1.5rem;
     color: var(--cor-violeta);
-    gap: 2rem;
+    gap: 1rem;
     justify-content: center;
  
 }
@@ -98,8 +98,8 @@ body {
 .textarea {
     padding: 20px;
     background-color:var(--cor-branco);
-    height: 19rem;
-    width: 500px;
+    height: 200px;
+    width: 450px;
     font-size: 1.5rem;
     border: 0;
     border-radius: 10px;
@@ -121,7 +121,7 @@ body {
 .atencao {
     margin-left: 30px;
     background-color: var(--cor-amarelo);
-    width: 500px;
+    width: 460px;
     height: 50px;
     display: flex;
     gap: 15px;
@@ -131,7 +131,7 @@ body {
 
 .atencao_img {
     margin-top: 6px;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .atencao_frase {
@@ -140,15 +140,16 @@ body {
 }
 
 .botaoir {
-    width: 570px;
+    width: 400px;
     display: flex;
     justify-content: space-between;
+    gap: 30px;
 }
 
 .encriptar {
     cursor: pointer;
-    width: 270px;
-    height: 4.75rem;
+    width: 240px;
+    height: 70px;
     flex-shrink: 0;
     font-size: 30px;
     color: var(--cor-violeta);
@@ -172,8 +173,8 @@ body {
 
 .desencriptar {
     cursor: pointer;
-    width: 270px;
-    height: 4.75rem;
+    width: 240px;
+    height: 70px;
     flex-shrink: 0;
     font-size: 30px;
     color: var(--cor-violeta);
@@ -212,18 +213,19 @@ body {
 .div_icones{
     display: flex;
     justify-content: right;
-    width: 570px;
+    width: 500px;
 }
 
 
 .cabecalho_icones {
-    width: 400px;
+    width: 360px;
+    height: 60px;
 } 
 
 
 .textarea2 {
-    height: 22rem;
-    width: 500px;
+    height: 260px;
+    width: 450px;
     background-color: var(--cor-branco);
     border: 0;
     border-radius: 10px;
@@ -246,7 +248,7 @@ body {
 .div_pastas {
     display: flex;
     justify-content: space-between;
-    width: 570px;
+    width: 510px;
 }
 
 .botaocopiar {
@@ -289,9 +291,7 @@ body {
     margin-right: 15%;
 }
 
-@media (max-width: 1500px) {
-    
-    
+@media (max-width: 1150px) {
     .main {
         margin-left: 15%;
         flex-direction: column;
@@ -304,9 +304,6 @@ body {
 }
 
 @media (max-width: 700px) {
-
-    
-    
     .main {
         margin-left: 6%;
         flex-direction: column;
