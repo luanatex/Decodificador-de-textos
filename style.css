@@ -199,6 +199,8 @@ body {
 .seta {
     display: flex;
     vertical-align: center;
+    height: 60px;
+    padding: 20% 0 10% 0;
     
 }
 
